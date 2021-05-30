@@ -1,0 +1,29 @@
+zstyle ':prezto:*:*' color 'yes'
+zstyle ':prezto:load' pmodule-dirs $HOME/.zprezto-contrib
+zstyle ':prezto:module:git:alias' skip 'yes'
+zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:terminal' auto-title 'yes'
+zstyle ':prezto:module:python' autovenv 'yes'
+zstyle ':prezto:load' pmodule \
+    'environment' \
+    'terminal' \
+    'helper' \
+    'editor' \
+    'history' \
+    'directory' \
+    'git' \
+    'utility' \
+    'gpg' \
+    'ssh' \
+    'python' \
+    'ruby' \
+    'completion' \
+    'syntax-highlighting' \
+    'history-substring-search' \
+    'spectrum' \
+    'prompt'
+    
+zstyle ':prezto:module:autosuggestions:color' found ''    
+zstyle ':prezto:module:git:status:ignore' submodules 'all'
+zstyle ':prezto:module:prompt' theme 'kayvon'
+zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
