@@ -2,3 +2,5 @@
 
 !.zpreztorc
 !.gitignore
+!.zprezto-contrib/
+!.zprezto-contrib/*
