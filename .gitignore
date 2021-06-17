@@ -4,3 +4,5 @@
 !.gitignore
 !.zprezto-contrib/
 !.zprezto-contrib/*
+!.zprezto/
+!.zprezto/*
