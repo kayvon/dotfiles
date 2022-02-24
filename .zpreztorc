@@ -19,6 +19,7 @@ zstyle ':prezto:load' pmodule \
     'ssh' \
     'python' \
     'ruby' \
+    'autosuggestions' \
     'syntax-highlighting' \
     'completion' \
     'history-substring-search' \
